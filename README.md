@@ -5,7 +5,7 @@ To set the status of an Olark Observer hardware device, a Vendor type control tr
 
 - `0x00` Notification device off
 - `0x01` Set notification device to reflect Olark operator status "operator available"
-- `0x02` Set device to status "operator unavailable"
+- `0x02` Set device to status "operator away"
 - `0x03` Set device to status "at max chats"
 - `0x04` Set device to status "has unread chats"
 

@@ -11,9 +11,9 @@ To set the status of an Olark Observer hardware device, a Vendor type control tr
 
 Bytes 2-3 and 4-5, the wValue and wIndex fields, are not currently used, and should be set to `0`.
 
-The transfer data phase should be 2 bytes in length, reflected in bytes 6-7 being set to `0x0002`.
+The transfer data phase should be 1 byte in length, reflected in bytes 6-7 being set to `0x0001`.
 
-When the Olark Observer hardware device responds, byte 0 of the data packet shall be set to `0x22` as confirmation the status has been updated. Byte 1 shall echo the bRequest type value.
+When the Olark Observer hardware device responds, byte 0 of the data packet shall be set to `0x22` as confirmation the status has been updated. 
 
 ### License
 MIT
